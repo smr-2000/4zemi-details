@@ -1,6 +1,15 @@
 <html>
   <body>
-    <p>Details-screen</p>
+    <div>
+      <p>Details-screen</p>
+    </div>
+
+    <div>
+      {% for post in posts %}
+          {{ post }}
+      {% endfor %}
+    </div>
+    
   </body>
 </html>
 
